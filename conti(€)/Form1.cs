@@ -15,6 +15,16 @@ namespace conti___
         public Form1()
         {
             InitializeComponent();
+
+            tbc_inizio.Appearance = TabAppearance.FlatButtons;
+            tbc_inizio.ItemSize = new Size(0, 1);
+            tbc_inizio.SizeMode = TabSizeMode.Fixed;
+
+            tbc_grafici.Appearance = TabAppearance.FlatButtons;
+            tbc_grafici.ItemSize = new Size(0, 1);
+            tbc_grafici.SizeMode = TabSizeMode.Fixed;
         }
+
+       
     }
 }
