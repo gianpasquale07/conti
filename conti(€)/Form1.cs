@@ -25,6 +25,36 @@ namespace conti___
             tbc_grafici.SizeMode = TabSizeMode.Fixed;
         }
 
-       
+        private void btn_graficoggi_Click(object sender, EventArgs e)
+        {
+            tbc_grafici.SelectTab(1);
+        }
+
+        private void btn_graficotot_Click(object sender, EventArgs e)
+        {
+            tbc_grafici.SelectTab(3);
+        }
+
+        private void btn_differenzaoggi_Click(object sender, EventArgs e)
+        {
+            tbc_grafici.SelectTab(2);
+        }
+
+        private void btn_differenzatot_Click(object sender, EventArgs e)
+        {
+            tbc_grafici.SelectTab(4);
+        }
+
+        private void btn_graficomese_Click(object sender, EventArgs e)
+        {
+            tbc_grafici.SelectTab(5);
+        }
+
+        private void btn_differenzamese_Click(object sender, EventArgs e)
+        {
+            tbc_grafici.SelectTab(6);
+        }
+
+        
     }
 }
